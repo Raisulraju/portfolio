@@ -4,21 +4,26 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 47px;
     font-weight: 700;
+}
+
+.h2 {
+    font-size: 38px;
 }
 
 .heading {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half {
     width: 50%;
-    margin: 3%;
+
 }
 
 .half img {
@@ -42,4 +47,24 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+
+.bottom-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#left-box {
+    border-left: 7px solid tomato;
+}
+
+#right-box {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
